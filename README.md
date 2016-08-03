@@ -6,11 +6,15 @@ URL fetcher with a job queue. Workers fetch the HTML from the queue and insert i
 
 This service takes 'POST' requests at '/api/urls/submit' and 'GET' requests at '/api/urls/status'
 
-  Requests to '/api/urls/submit' should include the following:
-  - url (in form of "www.website.domain")
+Requests to '/api/urls/submit' should include the following:
+  ```sh
+  $ url (in form of "www.website.domain")
+  ```
 
-  Requests to '/api/urls/status' should include the following:
-  - job_id (received from 'POST' requests to '/api/urls/submit')
+Requests to '/api/urls/status' should include the following:
+  ```sh
+  $ job_id (received from 'POST' requests to '/api/urls/submit')
+  ```
 
 ## Getting Started
 
