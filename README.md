@@ -1,6 +1,6 @@
 # URL Fetcher
 
-URL fetcher with a job queue. Workers fetch the HTML from the queue and insert it into the database.
+URL fetcher with a job queue. Workers fetch the HTML from URLs in the queue and insert it into the database.
 
 ## Usage
 
