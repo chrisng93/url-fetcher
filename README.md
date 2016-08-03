@@ -1,20 +1,20 @@
 # URL Fetcher
 
-URL fetcher with a job queue. Workers fetch the HTML from the queue and insert it into the database.
+URL fetcher with a job queue. Workers fetch the HTML from URLs in the queue and insert it into the database.
 
 ## Usage
 
 This service takes 'POST' requests at '/api/urls/submit' and 'GET' requests at '/api/urls/status'
 
-  Requests to '/api/urls/submit' should include the following:
-    ```sh
-    url (in form of "www.website.domain")
-    ```
+Requests to '/api/urls/submit' should include the following:
+  ```sh
+  url (in form of "www.website.domain")
+  ```
 
-  Requests to '/api/urls/status' should include the following:
-    ```sh
-    job_id (received from 'POST' requests to '/api/urls/submit')
-    ```
+Requests to '/api/urls/status' should include the following:
+  ```sh
+  job_id (received from 'POST' requests to '/api/urls/submit')
+  ```
 
 ## Getting Started
 
@@ -43,10 +43,10 @@ This service takes 'POST' requests at '/api/urls/submit' and 'GET' requests at '
 
 #### 4. Run the application
 
-  1. In a new terminal window run the following command to start the application:
+  In a new terminal window, run the following command to start the application:
 
   ```sh
   $ npm start
   ```
 
-  After that open in your browser the localhost with your chosen port, e.g. ``` http://localhost:8000/ ``` to access the application.
+  After that, open the localhost in your browser with your chosen port, e.g. ``` http://localhost:8000/ ```, to access the application.
