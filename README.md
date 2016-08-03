@@ -43,7 +43,7 @@ Requests to '/api/urls/status' should include the following:
 
 #### 4. Run the application
 
-  1. In a new terminal window run the following command to start the application:
+  In a new terminal window run the following command to start the application:
 
   ```sh
   $ npm start
