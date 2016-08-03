@@ -16,6 +16,10 @@ require('./config/initialize.js')(app, express);
 
 // API Routes
 require('./routes/api-routes.js')(app);
+app.get('/*', (req, res) => {
+  var msg = 'Please send \'POST\' requests to \'/api/urls/submit\' and \'GET\' requests to \'/api/urls/status\''
+  res.status(404).send(msg);
+});
 
 // Set fetcher to run at 5 second intervals
 setInterval(fetcher.htmlFetcher, 5000);
