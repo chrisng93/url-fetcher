@@ -1,0 +1,21 @@
+{
+  "name": "massdrop-url-fetcher",
+  "version": "1.0.0",
+  "description": "Job queue for fetching URLs and storing resulting HTML",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "author": "Chris Ng",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
