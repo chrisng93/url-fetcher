@@ -43,10 +43,10 @@ Requests to '/api/urls/status' should include the following:
 
 #### 4. Run the application
 
-  In a new terminal window run the following command to start the application:
+  In a new terminal window, run the following command to start the application:
 
   ```sh
   $ npm start
   ```
 
-  After that open in your browser the localhost with your chosen port, e.g. ``` http://localhost:8000/ ``` to access the application.
+  After that, open the localhost in your browser with your chosen port, e.g. ``` http://localhost:8000/ ```, to access the application.
